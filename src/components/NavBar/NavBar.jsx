@@ -21,7 +21,7 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <div
-          className="flex gap-20 text-[#000] font-medium text-sm"
+          className="flex gap-20 text-[#000] font-medium text-base"
           style={{ fontFamily: "Urbanist" }}
         >
           <li className="cursor-pointer hover:text-[#f26d40]">Dashboard</li>
