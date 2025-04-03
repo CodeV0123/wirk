@@ -8,7 +8,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   return (
     <nav className="bg-white py-4 px-8 shadow-md">
-      <ul className="flex items-center justify-between w-full max-w-[1200px] mx-auto">
+      <ul className="flex items-center justify-between w-full max-w-[1500px] mx-auto">
         {/* Logo Section */}
         <li>
           <img
@@ -20,7 +20,10 @@ const NavBar = () => {
         </li>
 
         {/* Navigation Links */}
-        <div className="flex gap-8 text-[#333] font-medium text-sm font-urbanist">
+        <div
+          className="flex gap-20 text-[#000] font-medium text-sm"
+          style={{ fontFamily: "Urbanist" }}
+        >
           <li className="cursor-pointer hover:text-[#f26d40]">Dashboard</li>
           <li className="cursor-pointer hover:text-[#f26d40]">Job Posts</li>
           <li className="cursor-pointer hover:text-[#f26d40]">Applications</li>
