@@ -7,6 +7,7 @@ export default defineConfig({
     extend: {
       fontFamily: {
         urbanist: ["Urbanist", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
