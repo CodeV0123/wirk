@@ -25,7 +25,12 @@ const NavBar = () => {
           style={{ fontFamily: "Urbanist" }}
         >
           <li className="cursor-pointer hover:text-[#f26d40]">Dashboard</li>
-          <li className="cursor-pointer hover:text-[#f26d40]">Job Posts</li>
+          <li
+            className="cursor-pointer hover:text-[#f26d40]"
+            onClick={() => navigate("/jobpost")}
+          >
+            Job Posts
+          </li>
           <li className="cursor-pointer hover:text-[#f26d40]">Applications</li>
           <li className="cursor-pointer hover:text-[#f26d40]">Top Talent</li>
           <li className="cursor-pointer hover:text-[#f26d40]">Shortlist</li>
