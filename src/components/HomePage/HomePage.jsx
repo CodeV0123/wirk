@@ -13,11 +13,9 @@ const HomePage = () => {
       <main className="flex-grow">
         <section>
           <Hero />
-          {/* Create Job Post Cards */}
           <Cards />
         </section>
       </main>
-
       {/* Footer section */}
       <Footer />
     </div>
