@@ -13,7 +13,7 @@ import option3 from "../JobPost/assets/option3.png";
 import company1 from "../Applications/assets/company1.png";
 import find from "../Applications/assets/find.png";
 
-const JobPost = () => {
+const Applications = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <NavBar />
@@ -259,4 +259,4 @@ const JobPost = () => {
   );
 };
 
-export default JobPost;
+export default Applications;
