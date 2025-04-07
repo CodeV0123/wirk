@@ -22,7 +22,7 @@ const Applications = () => {
         {/* Sidebar */}
         <aside className="w-[22%] space-y-6">
           {/* Profile Card */}
-          <div className="bg-white p-4 rounded-2xl shadow h-[250px]">
+          <div className="bg-white rounded-2xl shadow h-[250px]">
             <div className="flex justify-center">
               <div className="relative">
                 <div className="bg-[#e9532b] w-76 h-20 rounded-t-lg"></div>
@@ -50,19 +50,19 @@ const Applications = () => {
             className="space-y-1 bg-white p-3 rounded-xl shadow flex flex-col gap-2 text-[#141414]"
             style={{ fontFamily: "Urbanist" }}
           >
-            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50">
+            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50 font-medium text-lg">
               <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
                 <img src={option1} alt="My Preferences Icon" />
               </div>
               <span>My Preferences</span>
             </div>
-            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50">
+            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50 font-medium text-lg">
               <div className="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center mr-3">
                 <img src={option2} alt="Saved Jobs Icon" />
               </div>
               <span>Saved Jobs</span>
             </div>
-            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50">
+            <div className="p-3 flex items-center cursor-pointer hover:bg-pink-50 font-medium text-lg">
               <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
                 <img src={option3} alt="Insights Icon" />
               </div>
