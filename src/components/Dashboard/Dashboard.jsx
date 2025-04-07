@@ -23,8 +23,8 @@ const Dashboard = () => {
           {/* Application Card */}
           <div className=" flex flex-col items-center justify-center bg-[#fff] rounded-lg shadow-lg">
             <p
-              className="bg-gradient-to-r from-[#e9532b] to-[#f992ec] text-white w-full h-[65px] text-center rounded-t-lg font-semibold text-lg"
-              styles={{ fontFamily: "Urbanist" }}
+              className="bg-gradient-to-r from-[#e9532b] to-[#f992ec] text-white w-full h-[65px] text-center rounded-t-lg font-semibold text-lg flex items-center justify-center"
+              style={{ fontFamily: "Urbanist" }}
             >
               Application Panding
             </p>
@@ -69,8 +69,8 @@ const Dashboard = () => {
           {/* Analysis */}
           <div className="flex flex-col justify-center items-center bg-[#fff] rounded-lg shadow-lg max-w-4xl mx-auto">
             <p
-              className=" mx-auto bg-gradient-to-r from-[#e9532b] to-[#f992ec] text-white w-full h-[65px] text-center rounded-t-lg font-semibold text-lg"
-              styles={{ fontFamily: "Urbanist" }}
+              className="bg-gradient-to-r from-[#e9532b] to-[#f992ec] text-white w-full h-[65px] text-center rounded-t-lg font-semibold text-lg flex items-center justify-center"
+              style={{ fontFamily: "Urbanist" }}
             >
               Analysis
             </p>
