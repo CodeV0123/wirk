@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import Hero from "./Hero";
-import Cards from "./Cards";
+import Cards from "./Cards/Cards";
 
 const HomePage = () => {
   return (
@@ -13,11 +13,9 @@ const HomePage = () => {
       <main className="flex-grow">
         <section>
           <Hero />
-          {/* Create Job Post Cards */}
           <Cards />
         </section>
       </main>
-
       {/* Footer section */}
       <Footer />
     </div>
