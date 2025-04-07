@@ -35,8 +35,8 @@ const JobPost = () => {
               className="mt-12 text-center"
               style={{ fontFamily: "Urbanist" }}
             >
-              <h3 className="font-semibold">Anita Job</h3>
-              <p className="text-sm text-gray-500">UI/UX Designer</p>
+              <h className="font-semibold text-lg text-[#141414]">Anita Job</h>
+              <p className="text-sm text-[#141414]">UI/UX Designer</p>
               <p className="text-xs text-gray-400 mt-8">
                 Durban, KwaZulu-Natal
               </p>
@@ -87,7 +87,7 @@ const JobPost = () => {
             className="bg-white p-4 rounded-2xl shadow flex flex-col gap-2"
             style={{ fontFamily: "Urbanist" }}
           >
-            <h4 className="font-semibold text-base mb-3 text-[#141414]">
+            <h4 className="font-semibold text-lg text-center mb-3 text-[#141414]">
               Suggested job searches
             </h4>
             <div className="space-y-2">
