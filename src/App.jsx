@@ -5,6 +5,7 @@ import JobPost from "./components/JobPost/JobPost";
 import Applications from "./components/Applications/Applications";
 import Dashboard from "./components/Dashboard/Dashboard";
 
+
 function App() {
   return (
     <Routes>
