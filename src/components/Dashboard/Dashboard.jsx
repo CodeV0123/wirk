@@ -74,7 +74,7 @@ const Dashboard = () => {
             >
               Analysis
             </p>
-            <div className=" w-full  ">
+            <div>
               <ul
                 className="text-4xl mt-6 p-9 flex items-center justify-between gap-6"
                 style={{ fontFamily: "Urbanist" }}
