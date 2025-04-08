@@ -22,23 +22,23 @@ const Applications = () => {
         {/* Sidebar */}
         <aside className="w-[22%] space-y-6">
           {/* Profile Card */}
-          <div className="bg-white rounded-2xl shadow h-[250px]">
+          <div className="bg-white rounded-2xl shadow h-[250px] w-full max-w-sm mx-auto">
             <div className="flex justify-center">
-              <div className="relative">
-                <div className="bg-[#e9532b] w-76 h-20 rounded-t-lg"></div>
+              <div className="relative w-full">
+                <div className="bg-[#e9532b] w-full h-[90px] rounded-t-2xl"></div>
                 <img
                   src={company1}
                   alt="Company Profile"
-                  className="absolute top-6 left-1/2 transform -translate-x-1/2 w-25 h-25 rounded-full border-4 border-white"
+                  className="absolute top-6 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
                 />
               </div>
             </div>
             <div
-              className="mt-12 text-center"
+              className="mt-12 text-center px-4"
               style={{ fontFamily: "Urbanist" }}
             >
-              <h3 className="font-semibold text-lg text-[#141414]">ColorHex</h3>
-              <p className="text-sm text-gray-500">Printing Company</p>
+              <h2 className="font-semibold text-lg text-[#141414]">ColorHex</h2>
+              <p className="text-sm text-[#141414]">Printing Company</p>
               <p className="text-xs text-gray-400 mt-8">
                 Durban, KwaZulu-Natal
               </p>

@@ -20,22 +20,24 @@ const JobPost = () => {
         {/* Sidebar */}
         <aside className="w-[22%] space-y-6">
           {/* Profile Card */}
-          <div className="bg-white rounded-2xl shadow h-[250px]">
+          <div className="bg-white rounded-2xl shadow h-[250px] w-full max-w-sm mx-auto">
             <div className="flex justify-center">
-              <div className="relative">
-                <div className="bg-[#ff77e3]  w-76 h-20 rounded-t-lg"></div>
+              <div className="relative w-full">
+                <div className="bg-[#ff77e3] w-full h-[90px] rounded-t-2xl"></div>
                 <img
                   src="https://randomuser.me/api/portraits/women/44.jpg"
                   alt="Profile"
-                  className="absolute top-6 left-1/2 transform -translate-x-1/2 w-25 h-25 rounded-full border-4 border-white"
+                  className="absolute top-6 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full border-4 border-white"
                 />
               </div>
             </div>
             <div
-              className="mt-12 text-center"
+              className="mt-12 text-center px-4"
               style={{ fontFamily: "Urbanist" }}
             >
-              <h className="font-semibold text-lg text-[#141414]">Anita Job</h>
+              <h2 className="font-semibold text-lg text-[#141414]">
+                Anita Job
+              </h2>
               <p className="text-sm text-[#141414]">UI/UX Designer</p>
               <p className="text-xs text-gray-400 mt-8">
                 Durban, KwaZulu-Natal
@@ -99,7 +101,7 @@ const JobPost = () => {
               ].map((item) => (
                 <div
                   key={item}
-                  className=" flex items-center gap-9 bg-white border border-[#ff77e3] text-[#ff77e3] text-lg font-semibold px-3 py-2 rounded-full mr-2 mb-2"
+                  className=" flex items-center gap-9 bg-white border border-[#ff77e3] text-[#ff77e3] text-base font-semibold px-3 py-2 rounded-full mr-2 mb-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
