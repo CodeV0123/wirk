@@ -24,13 +24,13 @@ export const generateInterviewQuestions = createAsyncThunk(
 const generateInterviewQuestionsSlice = createSlice({
   name: "interview",
   initialState: {
-    questions: [],
+    questions: null,
     loading: false,
     error: null,
   },
   reducers: {
     resetInterviewQuestions: (state) => {
-      state.questions = [];
+      state.questions = null;
       state.loading = false;
       state.error = null;
     },
