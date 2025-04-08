@@ -5,6 +5,7 @@ import JobPost from "./components/JobPost/JobPost";
 import Applications from "./components/Applications/Applications";
 import Dashboard from "./components/Dashboard/Dashboard";
 import TopTalent from "./components/TopTalent/TopTalent";
+import GenerateInterviewQuestions from "./components/InterviewQuestions/GenerateInterviewQuestions";
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <Route path="/applications" element={<Applications />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/top-talent" element={<TopTalent />} />
+      <Route
+        path="/generate-interview-questions"
+        element={<GenerateInterviewQuestions />}
+      />
     </Routes>
   );
 }
