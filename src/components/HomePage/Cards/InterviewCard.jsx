@@ -1,8 +1,10 @@
 import React from "react";
 import interviewImage from "../assets/interviewImage.png";
 import logoBg from "../assets/logoBg.png";
+import { useNavigate } from "react-router-dom";
 
 const InterviewCard = () => {
+  const navigate = useNavigate();
   return (
     <div>
       {/* Third Card interview */}
@@ -33,8 +35,9 @@ const InterviewCard = () => {
             one that fits your needs.
           </p>
           <button
-            className="mt-6 px-9 py-1.5 bg-white text-[#141414] font-semibold rounded-full shadow-md hover:bg-gray-100 transition"
+            className="mt-6 px-9 py-1.5 bg-white text-[#141414] font-semibold rounded-full shadow-md hover:bg-gray-100 transition cursor-pointer"
             style={{ fontFamily: "Urbanist" }}
+            onClick={() => navigate("/generate-interview-questions")}
           >
             Try Now!
           </button>
