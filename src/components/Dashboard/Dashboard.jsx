@@ -17,7 +17,7 @@ const Dashboard = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <NavBar />
-      <div className="flex px-[150px] py-6 gap-6">
+      <div className="flex px-[150px] py-6 ">
         {/* Sidebar */}
         <aside className="w-[22%] space-y-6">
           {/* Application Card */}
