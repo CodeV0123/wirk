@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import JobPost from "./components/JobPost/JobPost";
 import Applications from "./components/Applications/Applications";
 import Dashboard from "./components/Dashboard/Dashboard";
+import TopTalent from "./components/TopTalent/TopTalent";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/jobpost" element={<JobPost />} />
       <Route path="/applications" element={<Applications />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/top-talent" element={<TopTalent />} />
     </Routes>
   );
 }
